@@ -1,0 +1,1397 @@
+{
+  "users": [
+    {
+      "email": "abhi.kirra@gmail.com",
+      "password": "$2b$10$eIIlVF83mzZ95.yc5GN1qOi7kNgStW6Q6NX92poVqlw9pqdLLMf6m",
+      "name": "Kirra",
+      "phone": "09788112816",
+      "id": 3
+    },
+    {
+      "email": "tharzaw228@gmail.com",
+      "password": "$2a$10$M7xsh5MqJ8f5HWTwPbyIT.Ws1oTORWTMyY7mAhJ0dJyqQJxQyZ.Jq",
+      "name": "Elen Fanning",
+      "phone": "09446468613",
+      "id": 4,
+      "gender": "female",
+      "nationality": "Myanmar"
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2b$10$9AKDGscKpSRzh6sqI2WG9.bH2xB3aMpZEUnnkf7Ny4Wi4BPHD33U.",
+      "name": "Test",
+      "phone": "0912345678",
+      "id": 5,
+      "gender": "male",
+      "nationality": "Myanmar"
+    },
+    {
+      "email": "thethtoozaw@gmail.com",
+      "password": "$2a$10$pclWge6BtxIExQiymf6bauKnCcygYJn/8VyxbH8/SEfMYwvq9.ei2",
+      "name": "Thet Htoo Zaw",
+      "phone": "09402591482",
+      "id": 6
+    }
+  ],
+  "buses": [
+    {
+      "id": 1,
+      "name": "Bus 101",
+      "licensePlate": "ABC-1234",
+      "totalSeats": 30,
+      "model": "Volvo B9R"
+    },
+    {
+      "id": 2,
+      "name": "Bus 202",
+      "licensePlate": "XYZ-5678",
+      "totalSeats": 36,
+      "model": "Scania K-series"
+    },
+    {
+      "id": 3,
+      "name": "FlyWay-1",
+      "licensePlate": "AAA-1111",
+      "totalSeats": 48,
+      "model": "Scania S-series"
+    },
+    {
+      "id": 4,
+      "name": "FlyWay-2",
+      "licensePlate": "BBB-2222",
+      "totalSeats": 36,
+      "model": "Scania B-series"
+    },
+    {
+      "id": 5,
+      "name": "FlayWay-3",
+      "licensePlate": "BBB-2223",
+      "totalSeats": 36,
+      "model": "Volvo B89"
+    }
+  ],
+  "routes": [
+    {
+      "id": 1,
+      "from_terminal_id": 1,
+      "to_terminal_id": 2,
+      "departure_time": "2025-04-23T08:00:00Z",
+      "arrival_time": "2025-04-23T12:00:00Z",
+      "ticket_price": 40000,
+      "bus_id": 1
+    },
+    {
+      "id": 2,
+      "from_terminal_id": 1,
+      "to_terminal_id": 2,
+      "departure_time": "2025-04-24T08:00:00Z",
+      "arrival_time": "2025-04-24T12:00:00Z",
+      "ticket_price": 50000,
+      "bus_id": 1
+    },
+    {
+      "id": 3,
+      "from_terminal_id": 1,
+      "to_terminal_id": 2,
+      "departure_time": "2025-04-23T21:30",
+      "arrival_time": "2025-04-23T08:24",
+      "ticket_price": 80000,
+      "bus_id": 3
+    },
+    {
+      "id": 4,
+      "from_terminal_id": 1,
+      "to_terminal_id": 3,
+      "departure_time": "2025-04-23T02:30:00.000Z",
+      "arrival_time": "2025-04-23T19:54",
+      "ticket_price": 70000,
+      "bus_id": 4
+    },
+    {
+      "id": 5,
+      "from_terminal_id": 1,
+      "to_terminal_id": 5,
+      "departure_time": "2025-03-07T02:30:00.000Z",
+      "arrival_time": "2025-03-07T19:54",
+      "ticket_price": 60000,
+      "bus_id": 2
+    },
+    {
+      "id": 6,
+      "from_terminal_id": 4,
+      "to_terminal_id": 5,
+      "departure_time": "2025-03-08T02:30:00.000Z",
+      "arrival_time": "2025-03-08T18:45",
+      "ticket_price": 60000,
+      "bus_id": 4
+    },
+    {
+      "id": 7,
+      "from_terminal_id": 1,
+      "to_terminal_id": 2,
+      "departure_time": "2025-03-08T10:30:00.000Z",
+      "arrival_time": "2025-03-09T06:13",
+      "ticket_price": 70000,
+      "bus_id": 5
+    },
+    {
+      "id": 8,
+      "from_terminal_id": 3,
+      "to_terminal_id": 2,
+      "departure_time": "2025-03-27T23:30:00.000Z",
+      "arrival_time": "2025-03-28T12:47",
+      "ticket_price": 40000,
+      "bus_id": 1
+    },
+    {
+      "id": 9,
+      "from_terminal_id": 2,
+      "to_terminal_id": 4,
+      "departure_time": "2025-03-29T01:00:00.000Z",
+      "arrival_time": "2025-03-29T19:42",
+      "ticket_price": 40000,
+      "bus_id": 1
+    },
+    {
+      "id": 10,
+      "from_terminal_id": 1,
+      "to_terminal_id": 4,
+      "departure_time": "2025-03-08T00:30:00.000Z",
+      "arrival_time": "2025-03-08T10:12",
+      "ticket_price": 40000,
+      "bus_id": 2
+    },
+    {
+      "id": 11,
+      "from_terminal_id": 4,
+      "to_terminal_id": 1,
+      "departure_time": "2025-03-08T15:30:00.000Z",
+      "arrival_time": "2025-03-09T11:13",
+      "ticket_price": 40000,
+      "bus_id": 2
+    }
+  ],
+  "tickets": [
+    {
+      "user_id": "1",
+      "route_id": 3,
+      "name": "Thet Htoo Zaw",
+      "phone": "09 12345678",
+      "bus_id": 3,
+      "seat_number": 1,
+      "status": "booked",
+      "booking_time": "2025-03-06T15:15:46.108Z",
+      "confirmed_by_staff": false,
+      "id": 2
+    },
+    {
+      "user_id": "1",
+      "route_id": 5,
+      "name": "Thet Htoo Zaw",
+      "phone": "09 12345678",
+      "bus_id": 2,
+      "seat_number": 1,
+      "status": "booked",
+      "booking_time": "2025-03-07T01:11:44.626Z",
+      "confirmed_by_staff": false,
+      "id": 3
+    },
+    {
+      "user_id": "1",
+      "route_id": 5,
+      "name": "Thet Htoo Zaw",
+      "phone": "09 12345678",
+      "bus_id": 2,
+      "seat_number": 2,
+      "status": "booked",
+      "booking_time": "2025-03-07T01:11:44.627Z",
+      "confirmed_by_staff": false,
+      "id": 4
+    },
+    {
+      "user_id": "4",
+      "route_id": 5,
+      "name": "Thet Htoo Zaw",
+      "phone": "09 12345678",
+      "bus_id": 2,
+      "seat_number": 3,
+      "status": "booked",
+      "booking_time": "2025-03-07T01:11:44.627Z",
+      "confirmed_by_staff": false,
+      "id": 5
+    },
+    {
+      "user_id": "4",
+      "route_id": 5,
+      "name": "Thet Htoo Zaw",
+      "phone": "09 12345678",
+      "bus_id": 2,
+      "seat_number": 4,
+      "status": "booked",
+      "booking_time": "2025-03-07T01:11:44.627Z",
+      "confirmed_by_staff": false,
+      "id": 6
+    },
+    {
+      "user_id": "4",
+      "route_id": 5,
+      "name": "Thet Htoo Zaw",
+      "phone": "09 12345678",
+      "bus_id": 2,
+      "seat_number": 5,
+      "status": "booked",
+      "booking_time": "2025-03-07T01:11:44.627Z",
+      "confirmed_by_staff": false,
+      "id": 7
+    },
+    {
+      "user_id": "4",
+      "route_id": 5,
+      "name": "Thet Htoo Zaw",
+      "phone": "09 12345678",
+      "bus_id": 2,
+      "seat_number": 6,
+      "status": "booked",
+      "booking_time": "2025-03-07T01:11:44.627Z",
+      "confirmed_by_staff": false,
+      "id": 8
+    },
+    {
+      "user_id": "4",
+      "route_id": 5,
+      "name": "Thet Htoo Zaw",
+      "phone": "09 12345678",
+      "bus_id": 2,
+      "seat_number": 12,
+      "status": "booked",
+      "booking_time": "2025-03-07T01:11:44.628Z",
+      "confirmed_by_staff": false,
+      "id": 9
+    },
+    {
+      "user_id": "4",
+      "route_id": 5,
+      "name": "Thet Htoo Zaw",
+      "phone": "09 12345678",
+      "bus_id": 2,
+      "seat_number": 11,
+      "status": "booked",
+      "booking_time": "2025-03-07T01:11:44.628Z",
+      "confirmed_by_staff": false,
+      "id": 10
+    },
+    {
+      "user_id": "4",
+      "route_id": 5,
+      "name": "Thet Htoo Zaw",
+      "phone": "09 12345678",
+      "bus_id": 2,
+      "seat_number": 7,
+      "status": "booked",
+      "booking_time": "2025-03-07T01:11:44.628Z",
+      "confirmed_by_staff": false,
+      "id": 11
+    },
+    {
+      "user_id": "4",
+      "route_id": 5,
+      "name": "Thet Htoo Zaw",
+      "phone": "09 12345678",
+      "bus_id": 2,
+      "seat_number": 8,
+      "status": "booked",
+      "booking_time": "2025-03-07T01:11:44.628Z",
+      "confirmed_by_staff": false,
+      "id": 12
+    },
+    {
+      "user_id": "4",
+      "route_id": 5,
+      "name": "Thet Htoo Zaw",
+      "phone": "09 12345678",
+      "bus_id": 2,
+      "seat_number": 10,
+      "status": "booked",
+      "booking_time": "2025-03-07T01:11:44.628Z",
+      "confirmed_by_staff": false,
+      "id": 13
+    },
+    {
+      "user_id": "4",
+      "route_id": 5,
+      "name": "Thet Htoo Zaw",
+      "phone": "09 12345678",
+      "bus_id": 2,
+      "seat_number": 9,
+      "status": "booked",
+      "booking_time": "2025-03-07T01:11:44.628Z",
+      "confirmed_by_staff": false,
+      "id": 14
+    },
+    {
+      "user_id": "6",
+      "route_id": 5,
+      "name": "Test",
+      "phone": "0923556778",
+      "bus_id": 2,
+      "seat_number": 13,
+      "status": "booked",
+      "booking_time": "2025-03-07T03:03:51.932Z",
+      "confirmed_by_staff": false,
+      "id": 15
+    },
+    {
+      "user_id": "8",
+      "route_id": 5,
+      "name": "Thet Htoo Zaw",
+      "phone": "09 12345678",
+      "bus_id": 2,
+      "seat_number": 14,
+      "status": "booked",
+      "booking_time": "2025-03-07T03:32:53.993Z",
+      "confirmed_by_staff": false,
+      "id": 16
+    },
+    {
+      "user_id": "9",
+      "route_id": 6,
+      "name": "zuzusan",
+      "phone": "098765432",
+      "bus_id": 4,
+      "seat_number": 1,
+      "status": "booked",
+      "booking_time": "2025-03-07T03:54:06.047Z",
+      "confirmed_by_staff": false,
+      "id": 17
+    },
+    {
+      "user_id": "9",
+      "route_id": 6,
+      "name": "zuzusan",
+      "phone": "098765432",
+      "bus_id": 4,
+      "seat_number": 22,
+      "status": "cancelled",
+      "booking_time": "2025-03-07T03:54:06.049Z",
+      "confirmed_by_staff": false,
+      "id": 18
+    },
+    {
+      "user_id": "9",
+      "route_id": 6,
+      "name": "zuzusan",
+      "phone": "098765432",
+      "bus_id": 4,
+      "seat_number": 8,
+      "status": "completed",
+      "booking_time": "2025-03-07T03:54:06.048Z",
+      "confirmed_by_staff": false,
+      "id": 33
+    },
+    {
+      "user_id": "9",
+      "route_id": 6,
+      "name": "zuzusan",
+      "phone": "098765432",
+      "bus_id": 4,
+      "seat_number": 9,
+      "status": "booked",
+      "booking_time": "2025-03-07T03:54:06.048Z",
+      "confirmed_by_staff": false,
+      "id": 34
+    },
+    {
+      "user_id": "4",
+      "route_id": 4,
+      "name": "Thet Htoo Zaw",
+      "phone": "09 12345678",
+      "bus_id": 4,
+      "seat_number": 1,
+      "status": "booked",
+      "booking_time": "2025-03-07T04:01:31.407Z",
+      "confirmed_by_staff": false,
+      "id": 47
+    },
+    {
+      "user_id": "10",
+      "route_id": 4,
+      "name": "Aung",
+      "phone": "091637889",
+      "bus_id": 4,
+      "seat_number": 2,
+      "status": "booked",
+      "booking_time": "2025-03-07T04:08:05.996Z",
+      "confirmed_by_staff": false,
+      "id": 48
+    },
+    {
+      "user_id": "10",
+      "route_id": 4,
+      "name": "Aung",
+      "phone": "091637889",
+      "bus_id": 4,
+      "seat_number": 16,
+      "status": "booked",
+      "booking_time": "2025-03-07T04:08:05.996Z",
+      "confirmed_by_staff": false,
+      "id": 49
+    },
+    {
+      "user_id": "12",
+      "route_id": 3,
+      "name": "Aungko",
+      "phone": "09751939730",
+      "bus_id": 3,
+      "seat_number": 3,
+      "status": "booked",
+      "booking_time": "2025-03-07T06:58:31.133Z",
+      "confirmed_by_staff": false,
+      "id": 50
+    },
+    {
+      "user_id": "12",
+      "route_id": 3,
+      "name": "Aungko",
+      "phone": "09751939730",
+      "bus_id": 3,
+      "seat_number": 4,
+      "status": "booked",
+      "booking_time": "2025-03-07T06:58:31.133Z",
+      "confirmed_by_staff": false,
+      "id": 51
+    },
+    {
+      "user_id": 3,
+      "route_id": 1,
+      "bus_id": 1,
+      "name": "aungko",
+      "phone": "09751939730",
+      "seat_number": 23,
+      "status": "booked",
+      "booking_time": "2025-04-22T04:20:30.924Z",
+      "id": 52
+    },
+    {
+      "user_id": 3,
+      "route_id": 1,
+      "bus_id": 1,
+      "name": "aungko",
+      "phone": "09751939730",
+      "seat_number": 22,
+      "status": "booked",
+      "booking_time": "2025-04-22T04:20:30.896Z",
+      "id": 53
+    },
+    {
+      "route_id": 1,
+      "bus_id": 1,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 1,
+      "status": "booked",
+      "booking_time": "2025-04-22T06:07:47.501Z",
+      "id": 54
+    },
+    {
+      "user_id": 3,
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "Kirra",
+      "phone": "09788112816",
+      "seat_number": 7,
+      "status": "booked",
+      "booking_time": "2025-04-22T06:13:24.420Z",
+      "id": 55
+    },
+    {
+      "user_id": 3,
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "Kirra",
+      "phone": "09788112816",
+      "seat_number": 8,
+      "status": "booked",
+      "booking_time": "2025-04-22T06:13:24.432Z",
+      "id": 56
+    },
+    {
+      "user_id": 3,
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "Kirra",
+      "phone": "09788112816",
+      "seat_number": 10,
+      "status": "booked",
+      "booking_time": "2025-04-22T06:19:53.521Z",
+      "id": 57
+    },
+    {
+      "user_id": 3,
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "Kirra",
+      "phone": "09788112816",
+      "seat_number": 11,
+      "status": "booked",
+      "booking_time": "2025-04-22T06:19:53.534Z",
+      "id": 58
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 14,
+      "status": "booked",
+      "booking_time": "2025-04-22T06:23:29.401Z",
+      "id": 59
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 13,
+      "status": "booked",
+      "booking_time": "2025-04-22T06:23:29.390Z",
+      "id": 60
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 16,
+      "status": "booked",
+      "booking_time": "2025-04-22T06:26:38.246Z",
+      "id": 61
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 17,
+      "status": "booked",
+      "booking_time": "2025-04-22T06:26:38.252Z",
+      "id": 62
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 19,
+      "status": "booked",
+      "booking_time": "2025-04-22T06:34:30.122Z",
+      "id": 63
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 20,
+      "status": "booked",
+      "booking_time": "2025-04-22T06:34:30.130Z",
+      "id": 64
+    },
+    {
+      "user_id": 3,
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "Kirra",
+      "phone": "09788112816",
+      "seat_number": 22,
+      "status": "booked",
+      "booking_time": "2025-04-22T06:37:28.656Z",
+      "id": 65
+    },
+    {
+      "user_id": 3,
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "Kirra",
+      "phone": "09788112816",
+      "seat_number": 23,
+      "status": "booked",
+      "booking_time": "2025-04-22T06:37:28.669Z",
+      "id": 66
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 26,
+      "status": "booked",
+      "booking_time": "2025-04-22T06:55:17.602Z",
+      "id": 67
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 25,
+      "status": "booked",
+      "booking_time": "2025-04-22T06:55:17.586Z",
+      "id": 68
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 2,
+      "status": "booked",
+      "booking_time": "2025-04-22T07:56:15.556Z",
+      "id": 69
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 2,
+      "status": "booked",
+      "booking_time": "2025-04-22T07:56:49.975Z",
+      "id": 70
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 2,
+      "status": "booked",
+      "booking_time": "2025-04-22T07:58:23.626Z",
+      "id": 71
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 5,
+      "status": "booked",
+      "booking_time": "2025-04-22T08:02:38.901Z",
+      "id": 72
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 5,
+      "status": "booked",
+      "booking_time": "2025-04-22T08:02:16.887Z",
+      "id": 73
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 5,
+      "status": "booked",
+      "booking_time": "2025-04-22T08:02:37.853Z",
+      "id": 74
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 5,
+      "status": "booked",
+      "booking_time": "2025-04-22T08:02:39.091Z",
+      "id": 75
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 5,
+      "status": "booked",
+      "booking_time": "2025-04-22T08:02:39.097Z",
+      "id": 76
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 5,
+      "status": "booked",
+      "booking_time": "2025-04-22T08:02:39.149Z",
+      "id": 77
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 5,
+      "status": "booked",
+      "booking_time": "2025-04-22T08:02:39.237Z",
+      "id": 78
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 28,
+      "status": "booked",
+      "booking_time": "2025-04-22T08:10:54.345Z",
+      "id": 79
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 29,
+      "status": "booked",
+      "booking_time": "2025-04-22T08:10:54.351Z",
+      "id": 80
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "TZ",
+      "phone": "096969693969",
+      "seat_number": 6,
+      "status": "booked",
+      "booking_time": "2025-04-22T08:15:07.055Z",
+      "id": 81
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "AP",
+      "phone": "09788112816",
+      "seat_number": 6,
+      "status": "booked",
+      "booking_time": "2025-04-22T08:15:05.879Z",
+      "id": 82
+    },
+    {
+      "route_id": 3,
+      "bus_id": 3,
+      "seat_number": 9,
+      "status": "booked",
+      "booking_time": "2025-04-23T02:34:23.045Z",
+      "id": 83
+    },
+    {
+      "route_id": 1,
+      "bus_id": 1,
+      "seat_number": 4,
+      "status": "booked",
+      "booking_time": "2025-04-23T02:38:08.326Z",
+      "id": 84
+    },
+    {
+      "route_id": 1,
+      "bus_id": 1,
+      "seat_number": 5,
+      "status": "booked",
+      "booking_time": "2025-04-23T02:38:08.340Z",
+      "id": 85
+    },
+    {
+      "user_id": 3,
+      "route_id": 3,
+      "bus_id": 3,
+      "name": "Kirra",
+      "phone": "09788112816",
+      "seat_number": 12,
+      "status": "booked",
+      "booking_time": "2025-04-23T03:27:43.351Z",
+      "id": 86
+    }
+  ],
+  "seat_map": [
+    {
+      "id": 1,
+      "bus_id": 1,
+      "route_id": 1,
+      "seats_taken": [
+        22,
+        23,
+        1,
+        4,
+        5
+      ],
+      "available_seats": 25
+    },
+    {
+      "id": 2,
+      "bus_id": 3,
+      "route_id": 3,
+      "seats_taken": [
+        1,
+        3,
+        4,
+        7,
+        8,
+        10,
+        11,
+        13,
+        14,
+        16,
+        17,
+        19,
+        20,
+        22,
+        23,
+        25,
+        26,
+        2,
+        2,
+        2,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        28,
+        29,
+        6,
+        9,
+        12
+      ],
+      "available_seats": 16
+    },
+    {
+      "id": 3,
+      "bus_id": 4,
+      "route_id": 4,
+      "seats_taken": [
+        1,
+        2,
+        16
+      ],
+      "available_seats": 33
+    },
+    {
+      "id": 4,
+      "bus_id": 2,
+      "route_id": 5,
+      "seats_taken": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        13,
+        14
+      ],
+      "available_seats": 22
+    },
+    {
+      "id": 5,
+      "bus_id": 4,
+      "route_id": 6,
+      "seats_taken": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "available_seats": 6
+    },
+    {
+      "id": 6,
+      "bus_id": 5,
+      "route_id": 7,
+      "seats_taken": [],
+      "available_seats": 36
+    },
+    {
+      "id": 7,
+      "bus_id": 1,
+      "route_id": 8,
+      "seats_taken": [],
+      "available_seats": 30
+    },
+    {
+      "id": 8,
+      "bus_id": 1,
+      "route_id": 9,
+      "seats_taken": [],
+      "available_seats": 30
+    },
+    {
+      "id": 9,
+      "bus_id": 2,
+      "route_id": 10,
+      "seats_taken": [],
+      "available_seats": 36
+    },
+    {
+      "id": 10,
+      "bus_id": 2,
+      "route_id": 11,
+      "seats_taken": [],
+      "available_seats": 36
+    }
+  ],
+  "terminals": [
+    {
+      "id": 1,
+      "name": "Yangon",
+      "location": {
+        "latitude": 16.8661,
+        "longitude": 96.1951
+      }
+    },
+    {
+      "id": 2,
+      "name": "Mandalay",
+      "location": {
+        "latitude": 21.9162,
+        "longitude": 96.1527
+      }
+    },
+    {
+      "id": 3,
+      "name": "Naypyidaw",
+      "location": {
+        "latitude": 19.7633,
+        "longitude": 96.0785
+      }
+    },
+    {
+      "id": 4,
+      "name": "Bago",
+      "location": {
+        "latitude": 17.3369,
+        "longitude": 96.4797
+      }
+    },
+    {
+      "id": 5,
+      "name": "Taunggyi",
+      "location": {
+        "latitude": 20.7892,
+        "longitude": 97.0378
+      }
+    },
+    {
+      "id": 6,
+      "name": "Mawlamyine",
+      "location": {
+        "latitude": 16.4914,
+        "longitude": 97.6259
+      }
+    },
+    {
+      "id": 7,
+      "name": "Pyin Oo Lwin",
+      "location": {
+        "latitude": 22.0356,
+        "longitude": 96.4564
+      }
+    },
+    {
+      "id": 8,
+      "name": "Pathein",
+      "location": {
+        "latitude": 16.7792,
+        "longitude": 94.7321
+      }
+    },
+    {
+      "id": 9,
+      "name": "Meiktila",
+      "location": {
+        "latitude": 20.8778,
+        "longitude": 95.8585
+      }
+    },
+    {
+      "id": 10,
+      "name": "Dawei",
+      "location": {
+        "latitude": 14.0976,
+        "longitude": 98.1942
+      }
+    },
+    {
+      "id": 11,
+      "name": "Myeik",
+      "location": {
+        "latitude": 12.4394,
+        "longitude": 98.6003
+      }
+    },
+    {
+      "id": 12,
+      "name": "Hpa-An",
+      "location": {
+        "latitude": 16.8895,
+        "longitude": 97.634
+      }
+    },
+    {
+      "id": 13,
+      "name": "Myitkyina",
+      "location": {
+        "latitude": 25.3848,
+        "longitude": 97.3934
+      }
+    },
+    {
+      "id": 14,
+      "name": "Lashio",
+      "location": {
+        "latitude": 22.935,
+        "longitude": 97.7499
+      }
+    },
+    {
+      "id": 15,
+      "name": "Magway",
+      "location": {
+        "latitude": 20.152,
+        "longitude": 94.9324
+      }
+    },
+    {
+      "id": 16,
+      "name": "Sittwe",
+      "location": {
+        "latitude": 20.1462,
+        "longitude": 92.8984
+      }
+    },
+    {
+      "id": 17,
+      "name": "Kyaiktiyo",
+      "location": {
+        "latitude": 17.4813,
+        "longitude": 97.0951
+      }
+    },
+    {
+      "id": 18,
+      "name": "Thanlyin",
+      "location": {
+        "latitude": 16.7383,
+        "longitude": 96.2433
+      }
+    },
+    {
+      "id": 19,
+      "name": "Kalaw",
+      "location": {
+        "latitude": 20.629,
+        "longitude": 96.561
+      }
+    },
+    {
+      "id": 20,
+      "name": "Loikaw",
+      "location": {
+        "latitude": 19.6673,
+        "longitude": 97.2113
+      }
+    }
+  ],
+  "points": [
+    {
+      "id": 1,
+      "user_id": 4,
+      "points": 1200
+    }
+  ],
+  "faqs": [
+    {
+      "id": 1,
+      "question": "How do I book a ticket for Flyway Bus Express?",
+      "answer": "You can book a ticket via our website or mobile app using a credit card or mobile money.",
+      "icon": "bus"
+    },
+    {
+      "id": 2,
+      "question": "Can I change my travel date after booking?",
+      "answer": "Yes, date changes are allowed up to 24 hours before departure via the 'My Bookings' section.",
+      "icon": "calendar"
+    },
+    {
+      "id": 3,
+      "question": "Where can I find the pick-up points?",
+      "answer": "Pickup locations are listed during checkout and in your booking confirmation email.",
+      "icon": "location"
+    },
+    {
+      "id": 4,
+      "question": "What should I do if I miss my bus?",
+      "answer": "Please contact our support team immediately. Rebooking may be possible depending on availability.",
+      "icon": "alert-circle"
+    },
+    {
+      "id": 5,
+      "question": "How do I redeem a promo code?",
+      "answer": "Enter the promo code during checkout to apply your discount.",
+      "icon": "gift"
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": 1,
+      "issueTypes": [
+        "Inquiry"
+      ],
+      "message": "Internet ma kg bu",
+      "email": "the nextl"
+    },
+    {
+      "id": 2,
+      "issueTypes": [
+        "Bug report"
+      ],
+      "message": "The app is not good",
+      "email": "thenextlevelplayer2021@gmail.com"
+    },
+    {
+      "id": 3,
+      "issueTypes": [
+        "Inquiry"
+      ],
+      "message": "Tugyin",
+      "email": "ykhgj"
+    },
+    {
+      "id": 4,
+      "issueTypes": [
+        "Inquiry"
+      ],
+      "message": "Ma kg bu ြါကြဘကငုသဩ",
+      "email": "thenrct"
+    },
+    {
+      "id": 5,
+      "issueTypes": [
+        "Bug report"
+      ],
+      "message": "Blah Blah",
+      "email": "Hello"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "title": "🚌 Special Promo for Riders!",
+      "message": "Get 15% off for trips from Yangon to Mandalay starting today. Limited time offer!",
+      "date": "10 Apr 2025 at 9:00 AM",
+      "image": "https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 2,
+      "title": "📢 Schedule Update Notice",
+      "message": "The trip from Yangon to Naypyitaw on April 11, 2025 has been rescheduled from 9:00 AM to 10:30 AM.",
+      "date": "09 Apr 2025 at 6:00 PM",
+      "image": "https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 3,
+      "title": "🎉 Member Points Triple Day!",
+      "message": "Today only, members will earn 3x points for every ride. Points will be credited automatically.",
+      "date": "08 Apr 2025 at 8:00 AM",
+      "image": "https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 4,
+      "title": "🚐 New VIP Express Buses Arrived!",
+      "message": "Enjoy your journey with our newly upgraded VIP express buses offering enhanced comfort and safety.",
+      "date": "07 Apr 2025 at 3:00 PM",
+      "image": "https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": 5,
+      "title": "❗ Road Block Due to Heavy Rain",
+      "message": "The road between Bago and Taungoo is currently blocked due to flooding. Some trips may be canceled or delayed.",
+      "date": "07 Apr 2025 at 7:00 AM",
+      "image": "https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?auto=format&fit=crop&w=800&q=80"
+    }
+  ],
+  "invoice": [
+    {
+      "ticketId": [
+        53,
+        52
+      ],
+      "invoiceNumber": "20250422-7607",
+      "id": 1
+    },
+    {
+      "ticketId": [
+        54
+      ],
+      "invoiceNumber": "20250422-9551",
+      "id": 2
+    },
+    {
+      "ticketId": [
+        55,
+        56
+      ],
+      "invoiceNumber": "20250422-2068",
+      "id": 3
+    },
+    {
+      "ticketId": [
+        57,
+        58
+      ],
+      "invoiceNumber": "20250422-2022",
+      "id": 4
+    },
+    {
+      "ticketId": [
+        60,
+        59
+      ],
+      "invoiceNumber": "20250422-3811",
+      "id": 5
+    },
+    {
+      "ticketId": [
+        61,
+        62
+      ],
+      "invoiceNumber": "20250422-3853",
+      "id": 6
+    },
+    {
+      "ticketId": [
+        63,
+        64
+      ],
+      "invoiceNumber": "20250422-912",
+      "id": 7
+    },
+    {
+      "ticketId": [
+        65,
+        66
+      ],
+      "invoiceNumber": "20250422-8343",
+      "id": 8
+    },
+    {
+      "ticketId": [
+        68,
+        67
+      ],
+      "invoiceNumber": "20250422-1704",
+      "id": 9
+    },
+    {
+      "ticketId": [
+        69,
+        70,
+        71
+      ],
+      "invoiceNumber": "20250422-3914",
+      "id": 10
+    },
+    {
+      "ticketId": [
+        73,
+        74,
+        72,
+        75,
+        76,
+        77,
+        78
+      ],
+      "invoiceNumber": "20250422-9733",
+      "id": 11
+    },
+    {
+      "ticketId": [
+        79,
+        80
+      ],
+      "invoiceNumber": "20250422-7349",
+      "id": 12
+    },
+    {
+      "ticketId": [
+        81
+      ],
+      "invoiceNumber": "20250422-1546",
+      "id": 13
+    },
+    {
+      "ticketId": [
+        82
+      ],
+      "invoiceNumber": "20250422-4866",
+      "id": 14
+    },
+    {
+      "ticketId": [
+        83
+      ],
+      "invoiceNumber": "20250423-1355",
+      "id": 15
+    },
+    {
+      "ticketId": [
+        84,
+        85
+      ],
+      "invoiceNumber": "20250423-4590",
+      "id": 16
+    },
+    {
+      "ticketId": [
+        86
+      ],
+      "invoiceNumber": "20250423-9154",
+      "id": 17
+    }
+  ]
+}
